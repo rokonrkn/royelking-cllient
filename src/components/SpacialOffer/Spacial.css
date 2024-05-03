@@ -1,0 +1,19 @@
+.image{
+    transition: all 1s;
+}
+
+.box:hover .image {
+    transform: scale(1.1);
+}
+
+h3 {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
+
+.gooogle {
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+}

@@ -1,0 +1,51 @@
+/* .banner{
+    background-image: url('../../../public/images/banner-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+} */
+/* .banner2{
+    background-image: url('../../../public/images/banner-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+}
+.banner3{
+    background-image: url('../../../public/images/banner-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+} */
+.banner::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    opacity: calc(0.5);
+}
+.banner2::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    opacity: calc(0.5);
+}
+.banner3::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    opacity: calc(0.5);
+}
