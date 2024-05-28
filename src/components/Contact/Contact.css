@@ -1,15 +1,9 @@
-.image2{
-    transition: all 1s;
-}
-.image2:hover{
-    transform: scale(1.1);
-}
 @media (max-width: 640px) { 
-    .about-container{
+    .contact-container{
         margin-left: 10px;
         margin-right: 10px;
     }
-    .about-font{
+    .contact-container h3{
         font-size: 40px;
     }
  }

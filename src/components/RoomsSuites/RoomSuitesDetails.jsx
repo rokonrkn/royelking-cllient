@@ -1,12 +1,13 @@
 import { Rating } from '@mui/material';
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Suites.css'
 
 const RoomSuitesDetails = ({ suites }) => {
     const { id, title, description, image, rating } = suites;
     return (
         <div>
-            <div className='mx-16'>
+            <div className='xl:mx-16 room-container'>
                 {/* <div className="shadow-2xl py-3 px-10 absolute -mt-300 rounded-full">
                     <h3>Start from <span>$55.0/</span>night</h3>
                 </div> */}

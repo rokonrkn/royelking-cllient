@@ -37,13 +37,13 @@ const Header2 = () => {
                             About<span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-[#c77a63] transition-all duration-300 group-hover:w-full"></span>
                         </li>
                         </Link>
-                        <Link><li className="group flex   flex-col">
+                        <Link to={``}><li className="group flex   flex-col">
                             Rooms<span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-[#c77a63] transition-all duration-300 group-hover:w-full"></span>
                         </li></Link>
                         <Link><li className="group flex   flex-col">
                             Contact<span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-[#c77a63] transition-all duration-300 group-hover:w-full"></span>
                         </li></Link>
-                        <Link><li className="group flex   flex-col">
+                        <Link to={`/blog`}><li className="group flex   flex-col">
                             Blog<span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-[#c77a63] transition-all duration-300 group-hover:w-full"></span>
                         </li></Link>
                     </ul>
@@ -55,34 +55,21 @@ const Header2 = () => {
                         {dropDownState && (
                             <div className="">
                                 <ul className=" z-10  gap-2  bg-[#393E46]  absolute right-0 top-11 flex w-[200px] flex-col  rounded-lg   text-base ">
-                                    <li className="cursor-pointer  px-6 py-2 text-white rounded-t-lg hover:bg-sky-600 ">
+                                <Link to={`/`}><li className="cursor-pointer  px-6 py-2 text-white rounded-t-lg hover:bg-sky-600 ">
                                         Home
-                                    </li>
-                                    <li className="cursor-pointer  px-6 py-2 text-white hover:bg-sky-600 ">
+                                    </li></Link>
+                                    <Link to={`/about`}><li className="cursor-pointer  px-6 py-2 text-white hover:bg-sky-600 ">
                                         About
-                                    </li>
-                                    <li className="cursor-pointer  px-6 py-2 text-white hover:bg-sky-600 ">
+                                    </li></Link>
+                                    <Link to={`/rooms`}><li className="cursor-pointer  px-6 py-2 text-white hover:bg-sky-600 ">
                                         Rooms
-                                    </li>
-                                    <li className="cursor-pointer  px-6 py-2 text-white hover:bg-sky-600 ">
+                                    </li></Link>
+                                    <Link to={`/blog`}><li className="cursor-pointer  px-6 py-2 text-white hover:bg-sky-600 ">
                                         Blog
-                                    </li>
-                                    <ul className=" z-10  gap-2  bg-[#393E46]  absolute right-0 top-11 flex w-[200px] flex-col  rounded-lg   text-base ">
-
-                                        <li className="cursor-pointer  px-6 py-2 text-white hover:bg-sky-600 ">
-                                            About
-                                        </li>
-                                        <li className="cursor-pointer  px-6 py-2 text-white hover:bg-sky-600 ">
-                                            Rooms
-                                        </li>
-                                        <li className="cursor-pointer  px-6 py-2 text-white hover:bg-sky-600 ">
-                                            Blog
-                                        </li>
-                                        <li className="cursor-pointer  px-6 py-2 text-white hover:bg-sky-600 ">
-                                            Contact
-                                        </li>
-                                    </ul>
-
+                                    </li></Link>
+                                    <Link to={`/contact`}><li className="cursor-pointer  px-6 py-2 text-white hover:bg-sky-600 ">
+                                        Contact
+                                    </li></Link>
                                     <button style={{ border: '1px solid gray' }} className="group mt-10 ml-6 mb-8  relative z-10 h-12 w-36 overflow-hidden  text-sm text-white"> <span className="absolute  -inset-10 origin-left rotate-12 scale-x-0 transform bg-[#c77a63]  transition-transform duration-700 group-hover:scale-x-100 group-hover:duration-300"></span><span className="absolute -inset-10 origin-left rotate-12 scale-x-0 transform bg-[#7a3a26]  transition-transform duration-500 group-hover:scale-x-100 group-hover:duration-700"></span><span className="absolute   -inset-8 origin-left rotate-12 scale-x-0 transform bg-[#542618]  transition-transform duration-300 group-hover:scale-x-50 group-hover:duration-500"></span><span className="absolute z-10 text-center text-white opacity-0 duration-100 ease-out group-hover:opacity-100 group-hover:duration-700">BOOK YOUR STAY</span>BOOK YOUR STAY</button>
                                 </ul>
                             </div>
@@ -92,8 +79,8 @@ const Header2 = () => {
                 <div className="flex items-center justify-center mt-44">
                     <h2 className='text-5xl text-white '>404 Page</h2>
                 </div>
-            </div>
-        </div>
+            </div >
+        </div >
     );
 };
 

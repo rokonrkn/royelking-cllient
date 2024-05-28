@@ -1,0 +1,6 @@
+@media (max-width: 640px) { 
+    .room-container{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+ }

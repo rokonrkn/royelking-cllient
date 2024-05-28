@@ -1,7 +1,25 @@
 @media (min-width: 1024px) { 
     .testimonials-container{
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1fr 2fr;
         gap: 20px;
     }
+ }
+@media (max-width: 640px) { 
+    .testi-container{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .testi-font{
+        font-size: 40px;
+    }
+    .img-conainer{
+        margin-left: 20px;
+    }
+    .test-container{
+        margin-top: 40px;
+    }
+ }
+ .test-container{
+    box-shadow: 0px 1px 15px 5px rgb(212, 208, 208);
  }

@@ -1,24 +1,4 @@
-/* .banner{
-    background-image: url('../../../public/images/banner-3.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
-    position: relative;
-} */
-/* .banner2{
-    background-image: url('../../../public/images/banner-2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
-    position: relative;
-}
-.banner3{
-    background-image: url('../../../public/images/banner-1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
-    position: relative;
-} */
+
 .banner::after{
     content: "";
     position: absolute;
@@ -49,3 +29,9 @@
     background-color: black;
     opacity: calc(0.5);
 }
+
+@media (max-width: 640px) { 
+    .luxury-content{
+        font-size: 45px;
+    }
+ }

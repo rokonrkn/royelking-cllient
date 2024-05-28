@@ -17,3 +17,13 @@ h3 {
     font-family: "Merienda", cursive;
     font-optical-sizing: auto;
 }
+
+@media (max-width: 640px) { 
+    .spaical-container h3{
+        font-size: 40px;
+    }
+    .offfer-container{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+ }

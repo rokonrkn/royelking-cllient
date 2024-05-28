@@ -7,6 +7,7 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
+import './Date.css'
 
 const DateCheck = () => {
     const [value, onChange] = useState(new Date());
@@ -30,8 +31,8 @@ const DateCheck = () => {
 
     return (
         <div className='bg-[#ebdbd6]'>
-            <div className="grid lg:grid-cols-6 sm:grid-cols-1 mx-16 py-12 ">
-                <div className="">
+            <div className=" date-container xl:mx-16 py-12 ">
+                <div className="fgsrgfaer">
                     <h4 className='text-md uppercase mb-2'>Check-In</h4>
                     <DatePicker className="rounded-none border-none h-12 font-xl bg-white" onChange={onChange} value={value} />
                 </div>

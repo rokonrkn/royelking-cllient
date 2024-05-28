@@ -1,0 +1,12 @@
+@media (min-width: 1024px) { 
+    .blog-container{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 20px;
+    }
+ }
+ @media (max-width: 640px) { 
+    .content{
+        margin-top: 100px;
+    }
+  }

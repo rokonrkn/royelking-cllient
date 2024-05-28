@@ -1,0 +1,25 @@
+.hover-animate:hover{
+    background-color: #f7a98e ;
+    color: white;
+}
+.hover-animate{
+    border: 1px solid gainsboro;
+    color: black;
+}
+
+.card-container:hover .image{
+    transform: scale(1.1);
+}
+.image{
+    transition: all 1s;
+}
+@media (max-width: 640px) { 
+    .article-conttainer{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .article-conttainer h3{
+        font-size: 40px;
+    }
+ }
+

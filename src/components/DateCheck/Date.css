@@ -1,0 +1,22 @@
+@media (max-width: 640px) {
+    .date-container {
+        display: grid;
+        grid-template-columns: repeat(2, 5fr);
+        grid-column-gap: 10px;
+    }
+    .date-container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .date-container {
+        display: grid;
+        grid-template-columns: repeat(30, 1fr);
+        grid-column-gap: 10px;
+    }
+    .fgsrgfaer {
+        grid-column: 4 / span 12;   /* 2 x 6 */
+      }
+}

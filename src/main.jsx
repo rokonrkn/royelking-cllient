@@ -12,6 +12,8 @@ import SecondRoute from './components/Layout/SecondRoute.jsx';
 import SecondHome from './SecondHome/SecondHome.jsx';
 import AboutPage from './components/AboutPage/AboutPage.jsx';
 import RoomsDetails from './components/RoomsDetails/RoomsDetails.jsx';
+import Blog from './components/Blog/Blog.jsx';
+import Contact from './components/Contact/Contact.jsx';
 
 const router = createBrowserRouter([
   {
@@ -31,19 +33,28 @@ const router = createBrowserRouter([
       {
         path: '/secondhome',
         element: <SecondHome></SecondHome>
-      },
-      {
-        path: 'about',
-        element: <AboutPage></AboutPage>,
-        // loader: ()=> fetch()
-        
-      },
+      }
     ]
+  },
+  {
+    path: 'about',
+    element: <AboutPage></AboutPage>
+
   },
   
   {
     path: 'rooms',
     element: <RoomsDetails></RoomsDetails>
+  },
+  {
+    path: '/blog',
+    element: <Blog></Blog>
+    
+  },
+  {
+    path: '/contact',
+    element: <Contact></Contact>
+    
   }
 ]);
 

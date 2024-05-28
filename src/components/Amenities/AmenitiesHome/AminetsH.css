@@ -1,0 +1,9 @@
+@media (max-width: 640px) { 
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(2 , 200px);
+    }
+    .aminet-container{
+        margin-left: 10px;
+    }
+ }

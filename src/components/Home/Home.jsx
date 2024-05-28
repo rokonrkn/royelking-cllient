@@ -6,6 +6,9 @@ import About from '../About/About';
 import RoomsSuites from '../RoomsSuites/RoomsSuites';
 import AmenitiesHome from '../Amenities/AmenitiesHome/AmenitiesHome';
 import Testimonials from '../Testimonials/Testimonials';
+import TestimonialsBg from '../TestimonialsBg/TestimonialsBg';
+import Article from '../Article/Article';
+import ContactHome from '../Contact/ContactHome';
 
 const Home = () => {
     return (
@@ -17,6 +20,9 @@ const Home = () => {
             <RoomsSuites></RoomsSuites>
             <AmenitiesHome></AmenitiesHome>
             <Testimonials></Testimonials>
+            <TestimonialsBg></TestimonialsBg>
+            <Article></Article>
+            <ContactHome></ContactHome>
         </div>
     );
 };

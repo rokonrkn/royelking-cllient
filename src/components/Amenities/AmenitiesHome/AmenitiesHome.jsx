@@ -1,6 +1,7 @@
 import { faBath, faBurger, faCar, faChampagneGlasses, faCircle, faHandshake, faMugSaucer, faPersonSwimming, faWifi } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import './AminetsH.css'
 
 const AmenitiesHome = () => {
     return (
@@ -14,8 +15,8 @@ const AmenitiesHome = () => {
                             Est, felis, tempus nec vitae orci sodales Metus, velit nec at diam in sed. Massa dui ipsum ornare sagittis dolor
                             <br />sagittis amet odio est. Sit semper et velit fusce.</p>
                     </div>
-                    <div className="xl:mx-16 mt-14">
-                        <div className="grid xl:grid-cols-5 gap-14">
+                    <div className="xl:mx-16 aminet-container mt-14">
+                        <div className="grid xl:grid-cols-5 grid-container gap-14">
                             <div className="bg-white hover:shadow-2xl p-10 text-center rounded-md">
                                 <div className="text-5xl text-[#de9883]"><FontAwesomeIcon icon={faWifi} /></div>
                                 <div className="text-gray-500  items-center text-xl uppercase mt-5">Fast Wifi</div>
@@ -37,7 +38,7 @@ const AmenitiesHome = () => {
                                 <div className="text-gray-500  items-center text-xl uppercase mt-5">Swimming Pool</div>
                             </div>
                         </div>
-                        <div className="grid xl:grid-cols-5 gap-14 mt-14">
+                        <div className="grid xl:grid-cols-5 grid-container gap-14 mt-14">
                             <div className="bg-white hover:shadow-2xl p-10 text-center rounded-md">
                                 <div className="text-5xl text-[#de9883]"><FontAwesomeIcon icon={faBurger} /></div>
                                 <div className="text-gray-500  items-center text-xl uppercase mt-5">Breckfast</div>
